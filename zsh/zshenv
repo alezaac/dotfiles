@@ -330,3 +330,4 @@ export TERM=screen-256color
 ## Source local configurations
 if [ -e ~/.zshenv.local ]; then source ~/.zshenv.local; fi
 
+. "$HOME/.cargo/env"
